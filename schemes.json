@@ -1,0 +1,356 @@
+[
+  {
+    "id": "pm_kisan",
+    "name": "PM Kisan Samman Nidhi",
+    "name_hi": "पीएम किसान सम्मान निधि",
+    "name_bn": "পিএম কিষাণ সম্মান নিধি",
+    "name_te": "పిఎం కిసాన్ సమ్మాన్ నిధి",
+    "name_ta": "பிஎம் கிசான் சம்மான் நிதி",
+    "name_mr": "पीएम किसान सन्मान निधी",
+    "name_gu": "પીએમ કિસાન સન્માન નિધિ",
+    "name_kn": "ಪಿಎಂ ಕಿಸಾನ್ ಸಮ್ಮಾನ್ ನಿಧಿ",
+    "name_ur": "پی ایم کسان سمن نذی",
+    "description": "Direct income support of ₹6,000 per year to farmer families. Amount is transferred directly to bank account in 3 equal installments of ₹2,000 each.",
+    "description_hi": "किसान परिवारों को ₹6,000 प्रति वर्ष की सीधी आय सहायता। राशि सीधे बैंक खाते में ₹2,000 की 3 समान किस्तों में स्थानांतरित की जाती है।",
+    "benefits": "₹6,000/year in 3 installments of ₹2,000 each",
+    "benefits_hi": "₹6,000/वर्ष - ₹2,000 की 3 किस्तों में",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 100,
+      "occupation": [
+        "farmer"
+      ],
+      "max_income": 10000000,
+      "state": "All",
+      "owns_land": true
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Land Record (7/12 or Khatauni)",
+      "Bank Account Passbook",
+      "Mobile Number"
+    ],
+    "how_to_apply": "Step 1: Visit pmkisan.gov.in\nStep 2: Click 'New Farmer Registration'\nStep 3: Enter Aadhaar number and state\nStep 4: Fill land details and bank info\nStep 5: Submit and note reference number",
+    "how_to_apply_hi": "चरण 1: pmkisan.gov.in पर जाएं\nचरण 2: 'New Farmer Registration' पर क्लिक करें\nचरण 3: आधार नंबर और राज्य दर्ज करें\nचरण 4: भूमि विवरण और बैंक जानकारी भरें\nचरण 5: सबमिट करें",
+    "nearest_office": "Taluka Agriculture Office, CSC Centre (Common Service Centre), or nearest Bank"
+  },
+  {
+    "id": "fasal_bima",
+    "name": "Pradhan Mantri Fasal Bima Yojana",
+    "name_hi": "प्रधानमंत्री फसल बीमा योजना",
+    "name_bn": "প্রধানমন্ত্রী ফসল বীমা যোজনা",
+    "name_te": "ప్రధానమంత్రి ఫసల్ బీమా యోజన",
+    "name_ta": "பிரதமர் பயிர் காப்பீட்டு திட்டம்",
+    "name_mr": "प्रधानमंत्री पीक विमा योजना",
+    "name_gu": "પ્રધાનમંત્રી ફસલ બીમા યોજના",
+    "name_kn": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಫಸಲ್ ಬೀಮಾ ಯೋಜನೆ",
+    "name_ur": "وزیر اعظم فصل بیمہ اسکیم",
+    "description": "Crop insurance with very low premium. Farmers pay only 2% for Kharif crops, 1.5% for Rabi crops. Government pays the rest. Covers flood, drought, hailstorm, and pest damage.",
+    "description_hi": "बहुत कम प्रीमियम पर फसल बीमा। किसान खरीफ फसलों के लिए केवल 2%, रबी फसलों के लिए 1.5% भुगतान करते हैं। बाढ़, सूखा, ओलावृष्टि और कीट क्षति शामिल।",
+    "benefits": "Full crop loss coverage at 2% premium only",
+    "benefits_hi": "केवल 2% प्रीमियम पर पूर्ण फसल बीमा",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 100,
+      "occupation": [
+        "farmer"
+      ],
+      "max_income": 10000000,
+      "state": "All",
+      "owns_land": true
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Land Ownership/Lease Documents",
+      "Bank Account Details",
+      "Sowing Certificate from Patwari"
+    ],
+    "how_to_apply": "Step 1: Visit pmfby.gov.in\nStep 2: Register as a farmer\nStep 3: Enter crop and land details\nStep 4: Pay premium online\nOR visit nearest bank/CSC before sowing deadline",
+    "how_to_apply_hi": "चरण 1: pmfby.gov.in पर जाएं\nचरण 2: किसान के रूप में पंजीकरण करें\nचरण 3: फसल और भूमि विवरण दर्ज करें\nचरण 4: प्रीमियम ऑनलाइन भुगतान करें",
+    "nearest_office": "Bank, PACS (Primary Agricultural Credit Society), or CSC"
+  },
+  {
+    "id": "kcc",
+    "name": "Kisan Credit Card",
+    "name_hi": "किसान क्रेडिट कार्ड",
+    "name_bn": "কিষাণ ক্রেডিট কার্ড",
+    "name_te": "కిసాన్ క్రెడిట్ కార్డ్",
+    "name_ta": "கிசான் கிரெடிட் கார்டு",
+    "name_mr": "किसान क्रेडिट कार्ड",
+    "name_gu": "ખેડૂત ક્રેડિટ કાર્ડ",
+    "name_kn": "ಕಿಸಾನ್ ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್",
+    "name_ur": "کسان کریڈٹ کارڈ",
+    "description": "Get credit up to ₹3 lakh at just 4% interest rate for farming activities. Includes crop loans, farm equipment purchase, and allied activities like dairy, fishery.",
+    "description_hi": "खेती की गतिविधियों के लिए केवल 4% ब्याज दर पर ₹3 लाख तक का ऋण। फसल ऋण, कृषि उपकरण खरीद और डेयरी जैसी संबद्ध गतिविधियां शामिल।",
+    "benefits": "Up to ₹3 lakh loan at 4% interest",
+    "benefits_hi": "4% ब्याज पर ₹3 लाख तक ऋण",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 75,
+      "occupation": [
+        "farmer"
+      ],
+      "max_income": 10000000,
+      "state": "All",
+      "owns_land": false
+    },
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Land Records",
+      "Passport Photo",
+      "Bank Statement (if existing)"
+    ],
+    "how_to_apply": "Step 1: Visit any bank (SBI, HDFC, Cooperative Bank)\nStep 2: Ask for KCC application form\nStep 3: Submit with land documents\nStep 4: Bank will verify land within 15 days\nStep 5: Card issued after approval",
+    "how_to_apply_hi": "चरण 1: किसी भी बैंक में जाएं\nचरण 2: KCC आवेदन पत्र मांगें\nचरण 3: भूमि दस्तावेजों के साथ जमा करें\nचरण 4: बैंक 15 दिनों में सत्यापन करेगा",
+    "nearest_office": "Any Nationalized Bank, Regional Rural Bank, or Cooperative Bank"
+  },
+  {
+    "id": "soil_health",
+    "name": "Soil Health Card Scheme",
+    "name_hi": "मृदा स्वास्थ्य कार्ड योजना",
+    "name_bn": "মাটি স্বাস্থ্য কার্ড প্রকল্প",
+    "name_te": "సాయిల్ హెల్త్ కార్డ్ పథకం",
+    "name_ta": "மண் சுகாதார அட்டை திட்டம்",
+    "name_mr": "मृदा आरोग्य कार्ड योजना",
+    "name_gu": "માટી સ્વાસ્થ્ય કાર્ડ યોજના",
+    "name_kn": "ಮಣ್ಣಿನ ಆರೋಗ್ಯ ಕಾರ್ಡ್ ಯೋಜನೆ",
+    "name_ur": "مٹی صحت کارڈ اسکیم",
+    "description": "FREE soil testing to know exactly what nutrients your soil needs. Get personalized fertilizer recommendations to increase crop yield and reduce fertilizer costs.",
+    "description_hi": "मुफ्त मिट्टी परीक्षण। जानें आपकी मिट्टी को कौन से पोषक तत्व चाहिए। उपज बढ़ाने और खाद की लागत कम करने के लिए व्यक्तिगत सिफारिशें।",
+    "benefits": "FREE soil testing + fertilizer recommendations",
+    "benefits_hi": "मुफ्त मिट्टी परीक्षण + खाद सिफारिशें",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 100,
+      "occupation": [
+        "farmer"
+      ],
+      "max_income": 10000000,
+      "state": "All",
+      "owns_land": false
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Land Details (Survey Number)"
+    ],
+    "how_to_apply": "Step 1: Visit soilhealth.dac.gov.in\nStep 2: Register with mobile number\nStep 3: Request soil sample collection\nOR visit your nearest Krishi Vigyan Kendra",
+    "how_to_apply_hi": "चरण 1: soilhealth.dac.gov.in पर जाएं\nचरण 2: मोबाइल नंबर से पंजीकरण करें\nचरण 3: मिट्टी नमूना संग्रहण का अनुरोध करें",
+    "nearest_office": "Krishi Vigyan Kendra (KVK), Agriculture Department Office"
+  },
+  {
+    "id": "pm_kmy",
+    "name": "PM Kisan Maan-Dhan Yojana",
+    "name_hi": "पीएम किसान मान-धन योजना",
+    "name_bn": "পিএম কিষাণ মান-ধন যোজনা",
+    "name_te": "పిఎం కిసాన్ మాన్-ధన్ యోజన",
+    "name_ta": "பிஎம் கிசான் மான்-தன் திட்டம்",
+    "name_mr": "पीएम किसान मान-धन योजना",
+    "name_gu": "પીએમ કિસાન માન-ધન યોજના",
+    "name_kn": "ಪಿಎಂ ಕಿಸಾನ್ ಮಾನ್-ಧನ್ ಯೋಜನೆ",
+    "name_ur": "پی ایم کسان مان دھن اسکیم",
+    "description": "Pension scheme for small and marginal farmers. Pay ₹55-200/month based on age. Get guaranteed ₹3,000/month pension after age 60. Government matches your contribution.",
+    "description_hi": "छोटे किसानों के लिए पेंशन योजना। उम्र के आधार पर ₹55-200/माह जमा करें। 60 वर्ष के बाद ₹3,000/माह पेंशन पाएं। सरकार समान योगदान देती है।",
+    "benefits": "₹3,000/month pension after age 60",
+    "benefits_hi": "60 वर्ष बाद ₹3,000/माह पेंशन",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 40,
+      "occupation": [
+        "farmer"
+      ],
+      "max_income": 200000,
+      "state": "All",
+      "owns_land": false
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Bank Account",
+      "Land Records (for small/marginal farmer proof)"
+    ],
+    "how_to_apply": "Step 1: Visit nearest CSC Centre\nStep 2: Carry Aadhaar and bank passbook\nStep 3: CSC operator will register you\nStep 4: Auto-debit will start from bank account",
+    "how_to_apply_hi": "चरण 1: निकटतम CSC केंद्र जाएं\nचरण 2: आधार और बैंक पासबुक लाएं\nचरण 3: CSC ऑपरेटर पंजीकरण करेगा",
+    "nearest_office": "CSC Centre (Common Service Centre)"
+  },
+  {
+    "id": "pm_kusum",
+    "name": "PM KUSUM - Solar Pump Scheme",
+    "name_hi": "पीएम कुसुम - सोलर पंप योजना",
+    "name_bn": "পিএম কুসুম - সোলার পাম্প স্কিম",
+    "name_te": "పిఎం కుసుమ్ - సోలార్ పంప్ పథకం",
+    "name_ta": "பிஎம் குசும் - சோலார் பம்ப் திட்டம்",
+    "name_mr": "पीएम कुसुम - सौर पंप योजना",
+    "name_gu": "પીએમ કુસુમ - સોલર પંપ યોજના",
+    "name_kn": "ಪಿಎಂ ಕುಸುಮ್ - ಸೋಲಾರ್ ಪಂಪ್ ಯೋಜನೆ",
+    "name_ur": "پی ایم کسم - سولر پمپ اسکیم",
+    "description": "Get solar pumps for irrigation at 60% subsidy. Reduce electricity bills to zero. Sell extra solar power to grid and earn additional income.",
+    "description_hi": "60% सब्सिडी पर सिंचाई के लिए सोलर पंप पाएं। बिजली बिल शून्य हो। अतिरिक्त बिजली बेचें और कमाएं।",
+    "benefits": "60% subsidy on solar pumps + extra income from selling power",
+    "benefits_hi": "60% सब्सिडी + बिजली बेचकर अतिरिक्त आय",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 100,
+      "occupation": [
+        "farmer"
+      ],
+      "max_income": 10000000,
+      "state": "All",
+      "owns_land": true
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Land Records",
+      "Bank Account",
+      "Electricity Bill (if any)"
+    ],
+    "how_to_apply": "Step 1: Visit your State's Renewable Energy portal\nStep 2: Apply online for solar pump\nStep 3: Pay your share (40%)\nStep 4: Pump will be installed within 3 months",
+    "how_to_apply_hi": "चरण 1: राज्य के अक्षय ऊर्जा पोर्टल पर जाएं\nचरण 2: सोलर पंप के लिए आवेदन करें\nचरण 3: अपना हिस्सा (40%) भुगतान करें",
+    "nearest_office": "State Renewable Energy Development Agency, Agriculture Department"
+  },
+  {
+    "id": "enam",
+    "name": "e-NAM - Online Mandi",
+    "name_hi": "ई-नाम - ऑनलाइन मंडी",
+    "name_bn": "ই-ন্যাম - অনলাইন মান্ডি",
+    "name_te": "ఈ-నామ్ - ఆన్‌లైన్ మార్కెట్",
+    "name_ta": "ஈ-நாம் - ஆன்லைன் மார்க்கெட்",
+    "name_mr": "ई-नाम - ऑनलाइन बाजार",
+    "name_gu": "ઈ-નામ - ઓનલાઈન બજાર",
+    "name_kn": "ಇ-ನಾಮ್ - ಆನ್‌ಲೈನ್ ಮಾರುಕಟ್ಟೆ",
+    "name_ur": "ای نام - آن لائن مارکیٹ",
+    "description": "Sell your crops online to buyers across India. Get best prices through transparent bidding. No middleman, more profit directly to farmers.",
+    "description_hi": "अपनी फसल पूरे भारत में खरीदारों को ऑनलाइन बेचें। पारदर्शी बोली से सर्वोत्तम मूल्य पाएं। कोई बिचौलिया नहीं, किसानों को सीधे अधिक मुनाफा।",
+    "benefits": "Better prices, no middleman",
+    "benefits_hi": "बेहतर दाम, कोई बिचौलिया नहीं",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 100,
+      "occupation": [
+        "farmer"
+      ],
+      "max_income": 10000000,
+      "state": "All",
+      "owns_land": false
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Bank Account",
+      "Mobile Number"
+    ],
+    "how_to_apply": "Step 1: Visit enam.gov.in\nStep 2: Click 'Farmer Registration'\nStep 3: Enter Aadhaar and mobile\nStep 4: Upload crop details when ready to sell",
+    "how_to_apply_hi": "चरण 1: enam.gov.in पर जाएं\nचरण 2: 'Farmer Registration' पर क्लिक करें\nचरण 3: आधार और मोबाइल दर्ज करें",
+    "nearest_office": "Local APMC Mandi, Agriculture Market Committee"
+  },
+  {
+    "id": "pmay_g",
+    "name": "PM Awas Yojana - Gramin",
+    "name_hi": "प्रधानमंत्री आवास योजना - ग्रामीण",
+    "name_bn": "প্রধানমন্ত্রী আবাস যোজনা - গ্রামীণ",
+    "name_te": "ప్రధానమంత్రి ఆవాస్ యోజన - గ్రామీణ",
+    "name_ta": "பிரதமர் வீட்டுவசதி திட்டம் - கிராமம்",
+    "name_mr": "प्रधानमंत्री आवास योजना - ग्रामीण",
+    "name_gu": "પ્રધાનમંત્રી આવાસ યોજના - ગ્રામીણ",
+    "name_kn": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಆವಾಸ್ ಯೋಜನೆ - ಗ್ರಾಮೀಣ",
+    "name_ur": "وزیر اعظم آواس یوجنا - دیہاتی",
+    "description": "Get ₹1.2 to 1.3 lakh grant to build a pucca house. For BPL families without a proper house. Additional ₹12,000 for toilet under Swachh Bharat.",
+    "description_hi": "पक्का घर बनाने के लिए ₹1.2 से 1.3 लाख का अनुदान। BPL परिवारों के लिए। स्वच्छ भारत के तहत शौचालय के लिए ₹12,000 अतिरिक्त।",
+    "benefits": "₹1.2-1.3 lakh grant for house + ₹12,000 for toilet",
+    "benefits_hi": "घर के लिए ₹1.2-1.3 लाख + शौचालय के लिए ₹12,000",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 100,
+      "occupation": [
+        "any",
+        "farmer",
+        "worker"
+      ],
+      "max_income": 100000,
+      "state": "All",
+      "owns_land": false
+    },
+    "documents": [
+      "Aadhaar Card",
+      "BPL Certificate",
+      "Income Certificate",
+      "Land Document for house construction"
+    ],
+    "how_to_apply": "Step 1: Apply through Gram Panchayat\nStep 2: Your name should be in SECC-2011 list\nStep 3: Gram Sabha approves the list\nStep 4: Amount released in installments",
+    "how_to_apply_hi": "चरण 1: ग्राम पंचायत के माध्यम से आवेदन करें\nचरण 2: SECC-2011 सूची में नाम होना चाहिए\nचरण 3: ग्राम सभा सूची की मंजूरी देती है",
+    "nearest_office": "Gram Panchayat Office, Block Development Office"
+  },
+  {
+    "id": "mudra",
+    "name": "PM Mudra Yojana",
+    "name_hi": "प्रधानमंत्री मुद्रा योजना",
+    "name_bn": "প্রধানমন্ত্রী মুদ্রা যোজনা",
+    "name_te": "ప్రధానమంత్రి ముద్ర యోజన",
+    "name_ta": "பிரதமர் முத்ரா திட்டம்",
+    "name_mr": "प्रधानमंत्री मुद्रा योजना",
+    "name_gu": "પ્રધાનમંત્રી મુદ્રા યોજના",
+    "name_kn": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಮುದ್ರಾ ಯೋಜನೆ",
+    "name_ur": "وزیر اعظم مدرا اسکیم",
+    "description": "Business loans without collateral. Shishu: up to ₹50,000, Kishore: ₹50,000-5 lakh, Tarun: ₹5-10 lakh. Start or expand your small business.",
+    "description_hi": "बिना गारंटी बिजनेस लोन। शिशु: ₹50,000 तक, किशोर: ₹50,000-5 लाख, तरुण: ₹5-10 लाख। छोटा व्यवसाय शुरू करें या बढ़ाएं।",
+    "benefits": "Up to ₹10 lakh loan without collateral",
+    "benefits_hi": "बिना गारंटी ₹10 लाख तक लोन",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 65,
+      "occupation": [
+        "any",
+        "shopkeeper",
+        "worker"
+      ],
+      "max_income": 10000000,
+      "state": "All",
+      "owns_land": false
+    },
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Business Plan",
+      "Passport Photo",
+      "Address Proof"
+    ],
+    "how_to_apply": "Step 1: Visit any bank (SBI, PNB, etc.)\nStep 2: Ask for Mudra Loan form\nStep 3: Submit with business plan\nStep 4: Loan sanctioned in 7-10 days",
+    "how_to_apply_hi": "चरण 1: किसी भी बैंक में जाएं\nचरण 2: मुद्रा लोन फॉर्म मांगें\nचरण 3: बिजनेस प्लान के साथ जमा करें",
+    "nearest_office": "Any Nationalized Bank, Microfinance Institution"
+  },
+  {
+    "id": "scholarship_sc",
+    "name": "Post Matric Scholarship (SC/ST)",
+    "name_hi": "पोस्ट मैट्रिक छात्रवृत्ति (SC/ST)",
+    "name_bn": "পোস্ট ম্যাট্রিক স্কলারশিপ (SC/ST)",
+    "name_te": "పోస్ట్ మెట్రిక్ స్కాలర్‌షిప్ (SC/ST)",
+    "name_ta": "பத்தாம் வகுப்புக்குப் பின் உதவித்தொகை (SC/ST)",
+    "name_mr": "पोस्ट मॅट्रिक स्कॉलरशिप (SC/ST)",
+    "name_gu": "પોસ્ટ મેટ્રિક સ્કોલરશિપ (SC/ST)",
+    "name_kn": "ಪೋಸ್ಟ್ ಮೆಟ್ರಿಕ್ ಸ್ಕಾಲರ್‌ಶಿಪ್ (SC/ST)",
+    "name_ur": "پوسٹ میٹرک اسکالرشپ (SC/ST)",
+    "description": "Full tuition fee + monthly allowance for SC/ST students after 10th class. Covers school, college, and professional courses.",
+    "description_hi": "10वीं के बाद SC/ST छात्रों के लिए पूरी ट्यूशन फीस + मासिक भत्ता। स्कूल, कॉलेज और प्रोफेशनल कोर्स शामिल।",
+    "benefits": "Full fee + ₹150-1200/month allowance",
+    "benefits_hi": "पूरी फीस + ₹150-1200/माह भत्ता",
+    "eligibility": {
+      "min_age": 14,
+      "max_age": 35,
+      "occupation": [
+        "any",
+        "student"
+      ],
+      "max_income": 250000,
+      "state": "All",
+      "owns_land": false
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Caste Certificate",
+      "Income Certificate",
+      "Marksheet of last exam",
+      "Bank Account"
+    ],
+    "how_to_apply": "Step 1: Visit National Scholarship Portal (scholarships.gov.in)\nStep 2: Register as new student\nStep 3: Fill application with all details\nStep 4: Upload documents\nStep 5: Submit to institution for verification",
+    "how_to_apply_hi": "चरण 1: scholarships.gov.in पर जाएं\nचरण 2: छात्र के रूप में पंजीकरण करें\nचरण 3: सभी विवरण भरें\nचरण 4: दस्तावेज अपलोड करें",
+    "nearest_office": "School/College Office, District Social Welfare Office"
+  }
+]
